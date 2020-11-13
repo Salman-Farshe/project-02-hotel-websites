@@ -1,0 +1,17 @@
+{
+  "name": "hotel-boston",
+  "version": "1.0.0",
+  "description": "It's a hotel websites",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css"
+  },
+  "author": "Salman Farshe",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1"
+  }
+}
