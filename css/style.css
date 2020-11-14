@@ -12,13 +12,17 @@ a {
   text-decoration: none; }
 
 a:hover {
-  text-decoration: none; }
+  text-decoration: none;
+  color: var(--light-color); }
 
 h1, h2, h3 {
   padding-bottom: 1.3rem; }
 
 p {
   margin: 0.6rem 0rem; }
+
+.clearfix {
+  clear: both; }
 
 :root {
   --primary-color: #ffa500;
@@ -35,6 +39,9 @@ header #showcase .container .showcase-content h1, header #showcase .container .s
   line-height: 1.5; }
 
 header #nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
   width: 100vw;
   height: auto;
   overflow: auto;
@@ -78,7 +85,10 @@ header #nav-bar {
 header #showcase {
   background: url("../image/showcase.jpg") no-repeat center center/cover;
   width: 100vw;
-  height: 60vh; }
+  height: 70vh;
+  overflow: auto;
+  margin: auto;
+  padding: 0rem 1.3rem; }
   header #showcase .container {
     color: var(--light-color); }
     header #showcase .container .showcase-content {
@@ -97,3 +107,50 @@ header #showcase {
         header #showcase .container .showcase-content .btn:hover {
           color: var(--light-color);
           background: var(--primary-color); }
+
+#home-info {
+  width: 100vw;
+  height: 70vh; }
+  #home-info .home-content {
+    color: var(--light-color); }
+    #home-info .home-content .info-img {
+      background: url("../image/photo-1.jpg") no-repeat;
+      width: 50%;
+      float: left;
+      height: 70vh;
+      box-sizing: border-box;
+      position: absolute;
+      object-fit: cover; }
+    #home-info .home-content .info-content {
+      width: 50%;
+      float: right;
+      height: 70vh;
+      text-align: center;
+      overflow: hidden;
+      padding: 1rem 0.2rem; }
+      #home-info .home-content .info-content h2 {
+        margin-top: 0.5rem; }
+        #home-info .home-content .info-content h2 .txt {
+          color: var(--primary-color); }
+      #home-info .home-content .info-content .btn {
+        margin: 1rem 0rem;
+        color: var(--primary-color);
+        background: var(--light-color); }
+        #home-info .home-content .info-content .btn:hover {
+          color: var(--light-color);
+          background: var(--primary-color); }
+
+#feature .box {
+  float: left;
+  width: 33%;
+  padding: 3rem;
+  text-align: center; }
+  #feature .box i {
+    margin-bottom: 1rem; }
+
+#main-footer {
+  text-align: center;
+  background: var(--dark-color);
+  color: var(--light-color); }
+  #main-footer p {
+    padding: 0.5rem; }

@@ -13,6 +13,7 @@ a{
 }
 a:hover{
     text-decoration: none;
+    color: var(--light-color);
 }
 h1, h2, h3{
     padding-bottom: 1.3rem;
@@ -20,7 +21,9 @@ h1, h2, h3{
 p{
     margin: 0.6rem 0rem;
 }
-
+.clearfix{
+    clear: both;
+}
 :root{
     --primary-color: #ffa500;
     --secondary-color: #0bdb0b;
@@ -58,6 +61,9 @@ p{
 // Navigation
 header{
     #nav-bar{
+        position: sticky;
+        top: 0;
+        z-index: 1;
         width: 100vw;
         height: auto;
         overflow: auto;
@@ -89,10 +95,14 @@ header{
             }
         }
     }
+    // showcase section part - 02
     #showcase{
         background: url('../image/showcase.jpg') no-repeat center center/cover;
         width: 100vw;
-        height: 60vh;
+        height: 70vh;
+        overflow: auto;
+        margin: auto;
+        padding: 0rem 1.3rem;
         .container{
             color: var(--light-color);
             .showcase-content{
@@ -120,5 +130,66 @@ header{
                 }
             }
         }
+    }
+}
+// home-info section
+#home-info{
+    width: 100vw;
+    height: 70vh;
+    .home-content{
+        color: var(--light-color);
+        .info-img{
+            background: url('../image/photo-1.jpg') no-repeat;
+            width: 50%;
+            float: left;
+            height: 70vh;
+            box-sizing: border-box;
+            position: absolute;
+            object-fit: cover;
+        }
+        .info-content{
+            width: 50%;
+            float: right;
+            height: 70vh;
+            text-align: center;
+            overflow: hidden;
+            padding: 1rem 0.2rem;
+            h2{
+                margin-top: 0.5rem;
+                .txt{
+                    color: var(--primary-color);
+                }
+            }
+            .btn{
+                margin: 1rem 0rem;
+                color: var(--primary-color);
+                background: var(--light-color);
+                &:hover{
+                    color: var(--light-color);
+                    background: var(--primary-color);
+                }
+            }
+        }
+    }
+}
+// feature section part - 04 
+#feature{
+    .box{
+        float: left;
+        width: 33%;
+        padding: 3rem;
+        text-align: center;
+        & i{
+            margin-bottom: 1rem;
+        }
+    }
+}
+// footer
+#main-footer{
+    text-align: center;
+    background: var(--dark-color);
+    color: var(--light-color);
+    p{
+        padding: 0.5rem;
     }
 }
