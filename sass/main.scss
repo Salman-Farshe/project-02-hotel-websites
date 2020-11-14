@@ -59,9 +59,10 @@ p{
     line-height: 1.5;
 }
 // Navigation
+
 header{
     #nav-bar{
-        position: sticky;
+        position: relative;
         top: 0;
         z-index: 1;
         width: 100vw;
@@ -132,36 +133,39 @@ header{
         }
     }
 }
-// home-info section
+// home-info section part - 03
 #home-info{
     width: 100vw;
-    height: 70vh;
+    height: auto;
     .home-content{
         color: var(--light-color);
         .info-img{
-            background: url('../image/photo-1.jpg') no-repeat;
-            width: 50%;
             float: left;
-            height: 70vh;
-            box-sizing: border-box;
-            position: absolute;
-            object-fit: cover;
+            width: 50%;
+            min-height: 100%;
+            & img{
+                display: block;
+                margin: auto;
+                width: 100%;
+            }
         }
         .info-content{
-            width: 50%;
             float: right;
-            height: 70vh;
+            width: 50%;
+            min-height: 100%;
             text-align: center;
-            overflow: hidden;
-            padding: 1rem 0.2rem;
             h2{
-                margin-top: 0.5rem;
+                margin-top: 1rem;
                 .txt{
                     color: var(--primary-color);
                 }
             }
+            .lead{
+                padding: 0rem 0.8rem;
+                margin-bottom: 2rem;
+            }
             .btn{
-                margin: 1rem 0rem;
+                margin-top: 1rem;;
                 color: var(--primary-color);
                 background: var(--light-color);
                 &:hover{
@@ -184,12 +188,48 @@ header{
         }
     }
 }
-// footer
+
+// footer part - 05 
 #main-footer{
     text-align: center;
     background: var(--dark-color);
     color: var(--light-color);
     p{
         padding: 0.5rem;
+    }
+}
+
+
+// about-info part - 06 
+#about-info{
+    .container{
+        max-width: 100vw;
+        margin: auto;
+        overflow: auto;
+        .info-right{
+            float: right;
+            width: 50%;
+            min-height: 100%;
+            margin: 1rem 0rem;
+            & img{
+                display: block;
+                margin: auto;
+                width: 70%;
+                border-radius: 50%;
+            }
+        }
+        .info-left{
+            float: left;
+            width: 50%;
+            min-height: 100%;
+            h1{
+                word-spacing: 1rem;
+                margin-top: 0.5rem;
+                color: var(--secondary-color);
+            }
+            p{
+                text-align: left;
+            }
+        }
     }
 }
