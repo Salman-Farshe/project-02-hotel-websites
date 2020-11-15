@@ -255,3 +255,15 @@ header #showcase {
       #contact-info .container form button:hover {
         background: var(--primary-color);
         color: var(--light-color); }
+
+#contact-info-details {
+  max-width: 100vw;
+  margin: auto; }
+  #contact-info-details .box {
+    float: left;
+    width: 33.3%;
+    padding: 3rem;
+    text-align: center;
+    border: var(--primary-color) solid 1px; }
+    #contact-info-details .box i {
+      margin-bottom: 1rem; }

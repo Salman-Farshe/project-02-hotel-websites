@@ -330,3 +330,19 @@ header{
         }
     }
 }
+// contact-info-details part - 09 
+
+#contact-info-details{
+    max-width: 100vw;
+    margin: auto;
+    .box{
+        float: left;
+        width: 33.3%;
+        padding: 3rem;
+        text-align: center;
+        border: var(--primary-color) solid 1px;
+        & i{
+            margin-bottom: 1rem;
+        }
+    }
+}
