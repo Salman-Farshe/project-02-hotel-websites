@@ -1,0 +1,33 @@
+@import "main";
+// header part - 01 Navigation
+header{
+    #nav-bar{
+        .container{
+            display: grid;
+            grid-template-columns: auto;
+            justify-content: center;
+            h1{
+                text-align: center;
+                padding-bottom: 0.5rem;
+                .logo a{
+                    margin: auto;
+                    color: var(--secondary-color);
+                }
+            }
+            @include navbar-list();
+            .menu{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+                margin: 0rem;
+                padding: 0rem;
+                & a{
+                    margin-top: 0.2rem;
+                    margin-bottom: 0.5rem;
+                    border-bottom: 1px dotted var(--primary-color);
+                }
+            }
+        }
+    }
+}
