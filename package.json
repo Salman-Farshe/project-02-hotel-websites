@@ -4,7 +4,8 @@
   "description": "It's a hotel websites",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.css"
+    "compile:sass": "node-sass sass/main.scss css/style.css",
+    "compile:sass": "node-sass sass/mobile.scss css/mobile.css"
   },
   "author": "Salman Farshe",
   "license": "ISC",
