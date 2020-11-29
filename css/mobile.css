@@ -320,3 +320,12 @@ header #nav-bar .container {
       text-align: left;
       padding: 0rem;
       margin: 0.2rem 0.5rem; }
+
+#feature {
+  display: grid;
+  grid-template-rows: auto auto auto; }
+  #feature .box {
+    display: block;
+    max-width: 100vw;
+    min-height: 100%;
+    padding: 1.2rem; }

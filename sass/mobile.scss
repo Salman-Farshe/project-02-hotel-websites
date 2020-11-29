@@ -55,3 +55,15 @@ header{
         }
     }
 }
+
+// feature section part - 04
+#feature{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    .box{
+        display: block;
+        max-width: 100vw;
+        min-height: 100%;
+        padding: 1.2rem;
+    }
+}
