@@ -152,7 +152,8 @@ header #showcase {
   background: var(--dark-color);
   color: var(--light-color); }
   #main-footer p {
-    padding: 0.5rem; }
+    padding: 0.5rem;
+    margin: 0rem; }
 
 #about-info .container {
   max-width: 100vw;
