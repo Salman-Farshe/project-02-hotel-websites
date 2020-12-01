@@ -110,18 +110,17 @@ header #showcase {
   max-width: 100vw;
   height: auto; }
   #home-info .home-content {
-    color: var(--light-color); }
+    color: var(--light-color);
+    display: grid;
+    grid-template-columns: auto auto; }
     #home-info .home-content .info-img {
-      float: left;
-      width: 50%;
-      min-height: 100%; }
-      #home-info .home-content .info-img img {
-        display: block;
-        margin: auto;
-        width: 100%; }
+      width: 50vw;
+      min-height: 100%;
+      display: block;
+      margin: auto;
+      background: url("../image/photo-1.jpg") no-repeat center center/cover; }
     #home-info .home-content .info-content {
-      float: right;
-      max-width: 50%;
+      width: 50vw;
       min-height: 100%;
       text-align: center; }
       #home-info .home-content .info-content h2 {
@@ -129,10 +128,11 @@ header #showcase {
         #home-info .home-content .info-content h2 .txt {
           color: var(--primary-color); }
       #home-info .home-content .info-content .lead {
-        padding: 0rem 0.8rem;
-        margin-bottom: 2rem; }
+        padding: 0rem 1rem;
+        margin: 1rem;
+        text-align: left; }
       #home-info .home-content .info-content .btn {
-        margin-top: 1rem;
+        margin: 1rem auto;
         color: var(--primary-color);
         background: var(--light-color); }
         #home-info .home-content .info-content .btn:hover {

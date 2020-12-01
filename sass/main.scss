@@ -137,19 +137,17 @@ header{
     height: auto;
     .home-content{
         color: var(--light-color);
+        display: grid;
+        grid-template-columns: auto auto;
         .info-img{
-            float: left;
-            width: 50%;
+            width: 50vw;
             min-height: 100%;
-            & img{
-                display: block;
-                margin: auto;
-                width: 100%;
-            }
+            display: block;
+            margin: auto;
+            background: url('../image/photo-1.jpg') no-repeat center center/cover;
         }
         .info-content{
-            float: right;
-            max-width: 50%;
+            width: 50vw;
             min-height: 100%;
             text-align: center;
             h2{
@@ -159,11 +157,12 @@ header{
                 }
             }
             .lead{
-                padding: 0rem 0.8rem;
-                margin-bottom: 2rem;
+                padding: 0rem 1rem;
+                margin: 1rem;
+                text-align: left;
             }
             .btn{
-                margin-top: 1rem;;
+                margin: 1rem auto;
                 color: var(--primary-color);
                 background: var(--light-color);
                 &:hover{

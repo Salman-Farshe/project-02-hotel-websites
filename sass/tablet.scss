@@ -1,0 +1,27 @@
+@import "mobile";
+// showcase section part - 02
+#showcase{
+    max-height: 50vh;
+}
+
+// home-info section part - 03
+#home-info{
+    .home-content{
+        padding: 0rem;
+        display: grid;
+        grid-template-columns: auto auto;
+        .info-img{
+            width: 50vw;
+            min-height: 100%;
+            display: block;
+            margin: auto;
+            background: url('../image/photo-1.jpg') no-repeat center center/cover;
+        }
+        .info-content{
+            display: block;
+            .btn{
+                margin-bottom: 1.5rem;
+            }
+        }
+    }
+}
