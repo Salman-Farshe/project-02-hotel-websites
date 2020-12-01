@@ -179,3 +179,18 @@ header{
         }
     }
 }
+
+// contact-info details part - 09
+#contact-info-details{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    .box{
+        display: block;
+        width: 100vw;
+        min-height: 100%;
+        padding: 0.5rem;
+        & i{
+            margin: 0rem;
+        }
+    }
+}

@@ -407,3 +407,14 @@ header #nav-bar .container {
     position: relative;
     top: 50%;
     left: 40%; }
+
+#contact-info-details {
+  display: grid;
+  grid-template-rows: auto auto auto; }
+  #contact-info-details .box {
+    display: block;
+    width: 100vw;
+    min-height: 100%;
+    padding: 0.5rem; }
+    #contact-info-details .box i {
+      margin: 0rem; }
