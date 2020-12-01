@@ -141,3 +141,41 @@ header{
         }
     }
 }
+
+// contect-info section part - 08
+#contact-info{
+    .container{
+        max-height: 70vh;
+        h1{
+            word-spacing: 0.2rem;
+            margin-top: 0.5rem;
+            padding: 0rem;
+        }
+        p{
+            margin: 0rem;
+            padding: 0rem;
+            font-weight: bold;
+            color: var(--secondary-color);
+        }
+        form{
+            .form-group{
+                margin-bottom: 0.5rem;
+                label{
+                    font-weight: normal;
+                    margin-bottom: 0.2rem;
+                }
+                input, textarea{
+                    padding: 0rem;
+                }
+                textarea{
+                    height: 70px;
+                }
+            }
+            button{
+                position: relative;
+                top: 50%;
+                left: 40%;
+            }
+        }
+    }
+}

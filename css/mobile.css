@@ -382,3 +382,28 @@ header #nav-bar .container {
       justify-content: space-between; }
       #testimonial .container .testimonial .testimonial-one p, #testimonial .container .testimonial .testimonial-two p {
         text-align: left; }
+
+#contact-info .container {
+  max-height: 70vh; }
+  #contact-info .container h1 {
+    word-spacing: 0.2rem;
+    margin-top: 0.5rem;
+    padding: 0rem; }
+  #contact-info .container p {
+    margin: 0rem;
+    padding: 0rem;
+    font-weight: bold;
+    color: var(--secondary-color); }
+  #contact-info .container form .form-group {
+    margin-bottom: 0.5rem; }
+    #contact-info .container form .form-group label {
+      font-weight: normal;
+      margin-bottom: 0.2rem; }
+    #contact-info .container form .form-group input, #contact-info .container form .form-group textarea {
+      padding: 0rem; }
+    #contact-info .container form .form-group textarea {
+      height: 70px; }
+  #contact-info .container form button {
+    position: relative;
+    top: 50%;
+    left: 40%; }
