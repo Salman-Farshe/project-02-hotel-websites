@@ -6,3 +6,59 @@
     height: 50vh;
 }
 
+// testimonials part - 07
+#testimonial{
+    .container{
+        max-width: 100vw;
+        min-height: 100%;
+        h2{
+            margin: 1rem 0rem;
+            padding: 0rem;
+            text-align: center;
+            word-spacing: 0.2rem;
+        }
+        .testimonial{
+            max-width: 100vw;
+            min-height: 100%;
+            display: grid;
+            grid-template-rows: auto auto;
+            grid-gap: 3rem;
+            margin: 10rem 2rem;
+            opacity: 0.8;
+            text-align: center;
+            .testimonial-one, .testimonial-two{
+                margin: auto;
+                text-align: center;
+                max-width: 100vw;
+                min-height: 100%;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                justify-content: space-between;
+                p{
+                    text-align: left;
+                }
+            }
+        }
+    }
+}
+
+// contact-info-details part - 09
+#contact-info-details{
+    width: 100vw;
+    min-height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    .box{
+        display: block;
+        max-width: 100vw;
+        min-height: 100%;
+        padding: 3rem;
+        text-align: center;
+        border: var(--primary-color) solid 1px;
+        & i{
+            margin-bottom: 1rem;
+        }
+    }
+}
