@@ -307,8 +307,9 @@ header #nav-bar .container {
       border-bottom: 1px dotted var(--primary-color); }
 
 #home-info .home-content {
-  width: 100vw;
-  padding-bottom: 1.2rem; }
+  padding-bottom: 1.2rem;
+  display: flex;
+  flex-direction: row; }
   #home-info .home-content .info-img {
     display: none; }
   #home-info .home-content .info-content {
