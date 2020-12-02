@@ -35,13 +35,15 @@ header{
 // home info section part - 03
 #home-info{
     .home-content{
-        padding-bottom: 1.2rem;
+        display: grid;
+        grid-template-rows: auto;
         .info-img{
             display: none;
-        }
+            width: 0%;
+            }
         .info-content{
             display: block;
-            max-width: 100%;
+            max-width: 100vw;
             min-height: 100%;
             h2{
                 text-align: center;
