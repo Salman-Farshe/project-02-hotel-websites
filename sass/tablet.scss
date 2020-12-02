@@ -1,7 +1,9 @@
 @import "mobile";
 // showcase section part - 02
 #showcase{
-    max-height: 50vh;
+    max-width: 100vw;
+    height: 50vh;
+    overflow: hidden;
 }
 
 // home-info section part - 03
@@ -18,9 +20,48 @@
             background: url('../image/photo-1.jpg') no-repeat center center/cover;
         }
         .info-content{
+            width: 50vw;
+            min-height: 100%;
             display: block;
             .btn{
                 margin-bottom: 1.5rem;
+            }
+        }
+    }
+}
+
+// about-info part - 06
+#about-info{
+    .container{
+        display: grid;
+        grid-template-columns: auto auto;
+        .info-right{
+            width: 50vw;
+            min-height: 100%;
+            display: block;
+            margin: auto;
+            text-align: left;
+            padding-right: 2rem;
+        }
+        .info-left{
+            width: 50vw;
+            min-height: 100%;
+            display: block;
+        }
+    }
+}
+
+// contact-info section part - 08
+#contact-info{
+    .container{
+        width: 100vw;
+        min-height: 50vh;
+        form{
+            position: relative;
+            button{
+                position: absolute;
+                top: 130%;
+                left: 45%;
             }
         }
     }
