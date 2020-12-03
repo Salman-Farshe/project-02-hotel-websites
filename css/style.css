@@ -178,7 +178,7 @@ header #showcase {
       max-width: 80%;
       border-radius: 50%; }
   #about-info .container .info-left {
-    max-width: 50vw;
+    width: 50vw;
     min-height: 100%;
     display: block; }
     #about-info .container .info-left h1 {
@@ -227,8 +227,8 @@ header #showcase {
 
 #contact-info .container {
   max-width: 100vw;
-  margin: auto;
-  overflow: auto; }
+  min-height: 100%;
+  margin: auto; }
   #contact-info .container h1 {
     text-align: center;
     word-spacing: 1rem;
