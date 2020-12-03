@@ -1,0 +1,30 @@
+@import "main";
+
+#showcase{
+    .container{
+        min-height: 75vh;
+    }
+}
+
+#about-info{
+    .container{
+        overflow: hidden;
+    }
+}
+
+#testimonial{
+    .container{
+        overflow: hidden;
+        .testimonial{
+            display: grid;
+            grid-template-rows: auto auto;
+            grid-gap: 3rem;
+            .testimonial-one, .testimonial-two{
+                text-align: left;
+                p{
+                    text-align: left;
+                }
+            }
+        }
+    }
+}
