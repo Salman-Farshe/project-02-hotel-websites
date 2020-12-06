@@ -475,6 +475,6 @@ header #nav-bar .container {
   #contact-info .container form {
     position: relative; }
     #contact-info .container form button {
-      position: absolute;
+      position: relative;
       top: 130%;
       left: 45%; }
