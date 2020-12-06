@@ -48,14 +48,14 @@
 // contact-info part - 08
 #contact-info{
     width: 100vw;
-    height: 80vh;
+    min-height: 100%;
     overflow: hidden;
     .container{
-        margin: 3rem auto;
-        max-height: 60vh;
+        margin: 0rem auto;
+        min-height: 100%;
         overflow: hidden;
         form{
-            margin: 5rem auto;
+            margin: 0rem auto;
             padding: 5rem 0rem;
         }
     }
@@ -63,7 +63,7 @@
 // contact-info-details part - 09
 #contact-info-details{
     width: 100vw;
-    height: 20vh;
+    min-height: 100%;
     margin: auto;
     display: flex;
     flex-direction: row;
