@@ -2,7 +2,7 @@
 // showcase section part - 02
 #showcase{
     max-width: 100vw;
-    height: 50vh;
+    height: 70vh;
     overflow: hidden;
 }
 
@@ -23,6 +23,9 @@
             width: 50vw;
             min-height: 100%;
             display: block;
+            h2{
+                padding: 0.5rem;
+            }
             .btn{
                 margin-bottom: 1.5rem;
             }

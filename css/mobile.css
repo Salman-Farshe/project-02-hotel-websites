@@ -104,8 +104,7 @@ header #showcase {
         cursor: pointer; }
         header #showcase .container .showcase-content .btn:hover {
           color: var(--light-color);
-          background: var(--primary-color);
-          transform: scale(1.2); }
+          background: var(--primary-color); }
 
 #home-info {
   max-width: 100vw;
@@ -431,3 +430,6 @@ header #nav-bar .container {
     padding: 0.5rem; }
     #contact-info-details .box i {
       margin: 0rem; }
+
+#showcase .container .showcase-content .btn {
+  margin-bottom: 2rem; }
